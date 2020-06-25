@@ -6,12 +6,8 @@
 - TOKEN       - generate a token for github
 - PROJECTPATH - where the project will be created
 
-2. Add the command to bashrc such that the command can be used everywhere.
-open .bashrc in an editor for example nano  
-`nano ~/.bashrc` 
-and add  
-`source FILEPATH/.git_init.sh`  
-where FILEPATH is where the script is located
+2. Run `.install_command.sh` in the terminal using the command `./.install_command.sh`
+when you are in the direcory of the GIT-Automation
 
 ## How-to
 Just open the bash and type  
@@ -22,5 +18,3 @@ The script will then make a folder att PROJECTPATH,
 add a readme file and make a repositoty,  
 where it will to the first commit and push the project to the master branch.
 
-## TODO
-- Init script that add the source command to .bashrc
