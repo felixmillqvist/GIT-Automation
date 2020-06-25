@@ -11,7 +11,7 @@
 
 3. Add the command to bashrc such that the command can be used everywhere.
 open .bashrc in an editor for example nano  
-`nano ~/.bashrc</code>`  
+`nano ~/.bashrc` 
 and add  
 `source FILEPATH/.git_init.sh`  
 where FILEPATH is where the script is located
