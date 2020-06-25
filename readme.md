@@ -7,7 +7,7 @@
 - PROJECTPATH - where the project will be created
 - FILEPATH    - where this script is located
 
-2. Manually fill in the FILEPATH in git_init.py
+2. Manually fill in the FILEPATH in .git_init.sh
 
 3. Add the command to bashrc such that the command can be used everywhere.
 open .bashrc in an editor for example nano  
@@ -25,3 +25,6 @@ The script will then make a folder att PROJECTPATH,
 add a readme file and make a repositoty,  
 where it will to the first commit and push the project to the master branch.
 
+## TODO
+- Init script that add the source command to .bashrc
+- Fix the FILEPATH such that you dont need to change the .git_init.sh
