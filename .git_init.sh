@@ -5,7 +5,7 @@ git_init()
     project_name=$1
     cd /mnt/c/Users/felix/OneDrive/Skrivbord/GIT-Automation/
     source .env
-    python git_init.py $project_name
+    python3 git_init.py $project_name
     cd $PROJECTPATH
     mkdir $project_name
     cd $project_name 
