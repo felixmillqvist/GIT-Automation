@@ -3,7 +3,7 @@
 git_init() 
 {   
     project_name=$1
-    cd /mnt/c/Users/felix/OneDrive/Skrivbord/GIT-Automation/
+    cd "$PWD"
     source .env
     python3 git_init.py $project_name
     cd $PROJECTPATH
