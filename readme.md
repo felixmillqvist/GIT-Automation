@@ -7,7 +7,7 @@
 - PROJECTPATH - where the project will be created
 
 2. Run `.install_command.sh` in the terminal using the command `./.install_command.sh`
-when you are in the direcory of the GIT-Automation
+when you are in the directory of the GIT-Automation
 
 ## How-to
 Just open the bash and type  
