@@ -3,7 +3,10 @@
 git_init() 
 {   
     project_name=$1
-    cd "$PWD"
+
+    DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+    cd $DIR
+
     source .env
     python3 git_init.py $project_name
     cd $PROJECTPATH
